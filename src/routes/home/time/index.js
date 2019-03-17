@@ -8,7 +8,7 @@ export default class Time extends Component {
 
 	}
 	render() {
-		//AIzaSyDZEG1vp2giAovx9yF0bY5ivU0K1Kw_XOA
+		//mykey
 		return (
 			<div class={style.timeSection}>
 				<h1><i class="fa fa-calendar" /> <span>1<sup>st</sup> & 2<sup>nd</sup> Febuary 2018</span></h1>

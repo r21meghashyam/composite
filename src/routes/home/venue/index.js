@@ -7,7 +7,7 @@ export default class Venue extends Component {
 
 	}
 	render() {
-		//AIzaSyDZEG1vp2giAovx9yF0bY5ivU0K1Kw_XOA
+		//mykey
 		return (
 			<div class={style.venueComp}>
 				

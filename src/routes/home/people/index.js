@@ -7,7 +7,7 @@ export default class venue extends Component {
 
 	}
 	render() {
-		//AIzaSyDZEG1vp2giAovx9yF0bY5ivU0K1Kw_XOA
+		//mykey
 		return (
 			<div class={style.peopleComp}>
 				<h1>CONTACT</h1>

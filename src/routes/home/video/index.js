@@ -7,7 +7,7 @@ export default class Video extends Component {
 
 	}
 	render() {
-		//AIzaSyDZEG1vp2giAovx9yF0bY5ivU0K1Kw_XOA
+		//mykey
 		return (
 			<div class={style.video}>
 				<h1>Watch Composite 2K18 Trailer</h1>
