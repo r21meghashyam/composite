@@ -1,0 +1,46 @@
+.profile{
+	background: #5a94d1;
+	color:#333;
+	margin-top:50px;
+	padding:30px;
+	text-align: center;
+	min-height: 100vh;
+
+}
+.profileCard{
+	background: #FFF;
+	display: inline-block;
+	padding:20px;
+}
+
+.profileCard img{
+	width:100%;
+}
+
+.profileCard button{
+	font-size: 1.4em;
+	background: #5a94d1;
+	color:#fff;
+	padding:20px;
+	border-radius: 2px;
+	
+	margin:20px;
+	display: inline-block;
+	text-decoration: none;
+
+}
+
+.profileCard ul{
+	text-align:left;
+	
+}
+
+.profileCard ul a{
+	color:#555;
+	font-size:18px;
+	
+}
+
+.profileCard ul li{
+	padding:10px;
+}

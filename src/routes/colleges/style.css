@@ -1,0 +1,11 @@
+.schedule{
+    margin-top:50px;
+    text-align:center;
+}
+
+.schedule table,tr,td{
+   border:1px solid #000;
+   border-collapse: collapse;
+   padding:10px;
+   margin:auto;
+}

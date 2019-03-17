@@ -1,0 +1,25 @@
+.login{
+	background: #5a94d1;
+	color:#fff;
+	padding:20px;
+	text-align: center;
+	min-height: 100vh;
+	margin-top:50px;
+}
+.login i{
+	font-size:4em;
+	cursor:pointer;
+	display:inline-block;
+	width:70px;
+	height:70px;
+	margin:20px;
+	border:2px solid #fff;
+	border-radius: 50%;
+	line-height: 1.1;
+	transition: color 0.2s, background 0.2s;
+	
+}
+.login i:hover{
+	color:#FFF;
+	background:#222;
+}

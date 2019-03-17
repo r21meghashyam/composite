@@ -1,0 +1,105 @@
+.home {
+	padding: 20px;
+	height: 100vh;
+	width: 100%;
+	perspective: 200px;
+	animation: shear 2s ease-in-out 2s 1 normal;
+	overflow: hidden;
+	background:url(/assets/bg.jpg);
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	 color:#fff;
+	
+}
+
+.logo img{
+	width:60%;
+	animation: rotate 100s linear 4s infinite normal;
+	box-shadow: 1px 1px 25px #fff;
+    border-radius: 100%
+}
+.top .logo{
+	display: inline-block;
+	/* animation: path 2s ease-out 0.2s 1 normal; */
+}
+.top{
+	
+	padding:40px;
+	text-align: center;
+	transform: rotateX(30deg);
+	text-shadow: 1px 1px 1px #000;
+	
+}
+.top h1{
+	font-size: 4em;
+	font-family: 'Anton', sans-serif;
+	letter-spacing: 3px;
+	margin-bottom: 0px;
+	
+	
+}
+.top h1 span{
+	
+	animation: bluify 1s ease-out 4s 1 normal;
+	animation-fill-mode: forwards;
+}
+
+.underline{
+	width:300px!important;
+	margin-left:-285px!important;
+	height:1px!important;
+	position: absolute;
+}
+
+@keyframes rotate {
+    from {transform: rotate(360deg)}
+    to {transform: rotate(0deg)}
+}
+
+@keyframes bluify {
+    from {}
+    to {color:#3d97fb;}
+}
+
+@media (max-width:800px){
+	.top h1{
+		font-size:7vw;
+	}
+}
+@media (max-width:500px){
+	.top{
+		margin-top:50%;
+	}
+}
+
+@keyframes path {
+    from {margin-top: 1000px}
+    to {margin-top: 0px;}
+}
+.div2{
+	animation: path 4s ease-out 0s 1 normal;
+}
+.cursor{
+	display: inline-block;
+	background: #555;
+	width:2px;
+	height:30px;
+	margin-left:10px;
+	margin-bottom: -5px;
+	animation: blin 0.5s ease-in 0s infinite alternate;
+	transition: width 1s linear 1s, height 1s linear 0s,margin-left 1s linear 1s;
+	position: relative;
+	
+}
+
+.div2 i{
+	animation: jump 0.5s ease-in 4s infinite alternate;
+	font-size:2em;
+}
+
+@keyframes jump {
+    from {margin-top: -10px}
+    to {margin-top: 0px;}
+}

@@ -1,0 +1,16 @@
+.info{
+	padding: 10px;
+	background: #ffeeee;
+	color: #ab0000;
+	font-weight: 900;
+	animation:show 3s ease-in reverse infinite;
+	
+}
+.info i{
+	vertical-align: middle;
+	margin-top:-5px;
+}
+
+.small{
+	font-size: 0.6em;
+}

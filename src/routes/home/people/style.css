@@ -1,0 +1,38 @@
+.peopleComp>div{
+	display: inline-block;
+	width:50%;
+	
+	padding:10px;
+}
+@media (max-width:800px) {
+	.peopleComp>div{
+		width:100%;
+	}
+}
+
+.peopleComp img {
+	width:20%;
+	height: 20%;
+	border-radius: 50%;
+}
+.peopleComp>div>div{
+	display: inline-block;
+	vertical-align: top;
+	padding:10px;
+}
+.peopleComp h1,p{
+	margin:0px;
+	padding:5px;
+	
+}
+.peopleComp{
+	text-align: center;
+	padding: 100px 0px;
+}
+.peopleComp a{
+	text-decoration: none;
+	color:inherit;
+}
+.peopleComp p{
+	font-family: cursive;
+}

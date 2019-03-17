@@ -1,0 +1,29 @@
+.feeds{
+    margin-top:50px;
+    text-align:center;
+    background: #5a94d1;
+    padding:30px;
+}
+
+.cards{
+    padding:20px;
+    background: #FFF;
+    text-align:left;
+    max-width: 700px;
+    margin:auto;
+    
+}
+.cards div{
+    border-top:1px solid #999;
+}
+
+.cards h3,p{
+    margin:0px;
+}
+.cards i{
+    font-size:12px;
+}
+
+.cards p{
+    white-space: pre;
+}

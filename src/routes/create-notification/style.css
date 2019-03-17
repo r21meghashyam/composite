@@ -1,0 +1,32 @@
+.createNotification{
+    margin-top:50px;
+    text-align:center;
+    background: #5a94d1;
+}
+
+.form{
+    padding:20px;
+    background: #FFF;
+}
+
+.form>div{
+    padding:20px;
+}
+
+.form input,.form textarea {
+    width:80%;
+    font-size:20px;
+    vertical-align: top;
+}
+.form button{
+	font-size: 1.4em;
+	background: #5a94d1;
+	color:#fff;
+	padding:20px;
+	border-radius: 2px;
+	
+	margin:20px;
+	display: inline-block;
+	text-decoration: none;
+
+}
